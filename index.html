@@ -1,31 +1,594 @@
 <!doctype html>
-<html lang="ru" data-stub>
+<html lang="ru">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Лендинг: строительство загородных домов в Краснодаре · демо готовится</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Дом 23 · строительство загородных домов под ключ в Краснодаре</title>
+<meta name="description" content="Построим дом в Краснодаре и крае под ключ за 4–6 месяцев по фиксированной смете. Цена в договоре не меняется, оплата по этапам, гарантия 10 лет. Рассчитайте стоимость за 2 минуты.">
 <meta name="robots" content="noindex">
-<meta http-equiv="refresh" content="120">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Дом 23 · дома под ключ в Краснодаре по фиксированной смете">
+<meta property="og:description" content="Цена в договоре не меняется. Оплата по этапам. Гарантия 10 лет.">
+<meta property="og:url" content="https://web-atelie.ru/doma-krasnodar/">
+<meta property="og:image" content="https://web-atelie.ru/doma-krasnodar/assets/og.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231F2A24'/%3E%3Cpath d='M6 16 16 7l10 9v9H6z' fill='%23E8A33D'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Manrope:wght@400;600&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Carlito:ital,wght@1,700&display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"HomeAndConstructionBusiness","name":"Дом 23","areaServed":"Краснодар и Краснодарский край","url":"https://web-atelie.ru/doma-krasnodar/","priceRange":"от 42 000 ₽/м²"}</script>
 <style>
-:root{--bg:#F6F3EE;--ink:#1F1E1C;--muted:#6B655C;--acc:#8A6737}
-@media (prefers-color-scheme:dark){:root{--bg:#161615;--ink:#EDE7DC;--muted:#A9A195;--acc:#C9A66B}}
-*{box-sizing:border-box}html,body{height:100%}
-body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 Manrope,system-ui,sans-serif;display:grid;place-items:center;padding:24px}
-main{max-width:560px;text-align:center;display:flex;flex-direction:column;gap:18px;align-items:center}
-.k{font-size:.74rem;letter-spacing:.18em;text-transform:uppercase;color:var(--acc);font-weight:600}
-h1{font:500 clamp(2rem,6vw,3rem)/1.1 "Cormorant Garamond",Georgia,serif;margin:0;text-wrap:balance}
-p{margin:0;color:var(--muted)}
-.bar{width:220px;height:3px;background:color-mix(in srgb,var(--acc) 20%,transparent);border-radius:3px;overflow:hidden}
-.bar i{display:block;height:100%;width:40%;background:var(--acc);animation:m 1.6s ease-in-out infinite}
-@keyframes m{0%{transform:translateX(-100%)}100%{transform:translateX(250%)}}
-@media (prefers-reduced-motion:reduce){.bar i{animation:none;width:60%}}
+:root{
+  --bg:#F7F4EE; --bg2:#EFEAE1; --card:#FFFFFF; --ink:#1D1F1C; --soft:#5C605A; --line:#E2DCD1;
+  --green:#1F2A24; --green2:#2B3A31; --acc:#B8460B; --acc2:#D2560F; --gold:#E8A33D; --ok:#2F7D4F;
+  --r:16px; --wrap:1220px; --sh:0 10px 30px rgb(31 42 36 / .08);
+  --f:"Manrope",system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 var(--f);-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+button,input,select,textarea{font:inherit;color:inherit}
+h1,h2,h3{margin:0;line-height:1.12;font-weight:800;letter-spacing:-.02em}
+h2{font-size:clamp(28px,3.3vw,44px)}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 22px}
+.kicker{display:inline-block;font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--acc)}
+.sub{color:var(--soft);font-size:18px;max-width:640px;margin:14px 0 0}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+svg.i{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:16px 26px;border-radius:12px;border:0;font-weight:700;font-size:16px;text-decoration:none;cursor:pointer;white-space:nowrap;transition:background .2s,transform .2s}
+.btn--acc{background:var(--acc);color:#fff;box-shadow:0 10px 24px rgb(184 70 11 / .28)}
+.btn--acc:hover{background:var(--acc2);transform:translateY(-1px)}
+.btn--ghost{background:rgb(255 255 255 / .12);color:#fff;border:1px solid rgb(255 255 255 / .35)}
+.btn--ghost:hover{background:rgb(255 255 255 / .2)}
+.btn--dark{background:var(--green);color:#fff}
+.btn--dark:hover{background:var(--green2)}
+.sec{padding:96px 0}
+.sec--alt{background:var(--bg2)}
+.sec--dark{background:var(--green);color:#F3EFE7}
+.sec--dark .sub{color:#B9C2BB}
+.head{margin-bottom:44px;max-width:780px}
+.head h2{margin-top:10px}
+.rv{opacity:0;transform:translateY(20px);transition:opacity .6s ease,transform .6s ease}
+.rv.on{opacity:1;transform:none}
+
+/* шапка */
+.hdr{position:fixed;inset:0 0 auto;z-index:40;transition:background .3s,box-shadow .3s;color:#fff}
+.hdr.is-solid{background:rgb(247 244 238 / .96);backdrop-filter:blur(10px);box-shadow:0 1px 0 var(--line);color:var(--ink)}
+.hdr__in{display:flex;align-items:center;gap:26px;height:74px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:800;font-size:21px;letter-spacing:-.01em}
+.logo svg{width:34px;height:34px}
+.nav{display:flex;gap:22px;margin-left:auto}
+.nav a{text-decoration:none;font-size:15px;font-weight:600;opacity:.88}
+.nav a:hover{opacity:1;color:var(--gold)}
+.hdr.is-solid .nav a:hover{color:var(--acc)}
+.hdr__ph{text-decoration:none;font-weight:800;font-size:17px;white-space:nowrap}
+.hdr__ph small{display:block;font-weight:500;font-size:11.5px;opacity:.75}
+.hdr .btn{padding:12px 18px;font-size:14px}
+
+/* первый экран */
+.hero{position:relative;min-height:100vh;min-height:100svh;display:flex;align-items:center;color:#fff;overflow:hidden;padding:110px 0 70px}
+.hero picture,.hero picture img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hero::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgb(16 22 19 / .88) 0%,rgb(16 22 19 / .62) 45%,rgb(16 22 19 / .15) 100%);z-index:1}
+.hero .wrap{position:relative;z-index:2;width:100%}
+.hero__in{max-width:700px}
+.badge{display:inline-flex;align-items:center;gap:8px;background:rgb(232 163 61 / .16);border:1px solid rgb(232 163 61 / .5);color:#F6D39B;border-radius:999px;padding:7px 14px;font-size:13.5px;font-weight:700}
+.hero h1{font-size:clamp(34px,5vw,64px);margin:20px 0 0}
+.hero h1 span{color:var(--gold)}
+.hero__list{list-style:none;margin:24px 0 0;padding:0;display:grid;gap:10px;font-size:17px}
+.hero__list li{display:flex;gap:12px;align-items:flex-start}
+.hero__list svg{color:var(--gold);margin-top:2px}
+.hero__cta{display:flex;flex-wrap:wrap;gap:14px;margin-top:34px}
+.hero__trust{display:flex;flex-wrap:wrap;gap:14px 36px;margin-top:44px}
+.hero__trust b{display:block;font-size:30px;font-weight:800;line-height:1}
+.hero__trust span{font-size:13.5px;color:#D3D8D3}
+
+/* боли */
+.pains{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+.pain{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:26px}
+.pain b{display:block;font-size:13px;color:#A33A2A;font-weight:800;letter-spacing:.04em;text-transform:uppercase}
+.pain h3{font-size:19px;margin:10px 0 8px}
+.pain p{margin:0;color:var(--soft);font-size:15px}
+.answer{margin-top:22px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+.ans{background:var(--green);color:#F3EFE7;border-radius:var(--r);padding:24px;position:relative}
+.ans::before{content:"✓";position:absolute;top:20px;right:22px;color:var(--gold);font-weight:800;font-size:20px}
+.ans h3{font-size:17px;margin-bottom:6px;padding-right:20px}
+.ans p{margin:0;font-size:14.5px;color:#C4CCC5}
+
+/* проекты */
+.tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:26px}
+.tab{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:9px 18px;font-weight:700;font-size:14px;cursor:pointer;color:var(--soft)}
+.tab[aria-pressed="true"]{background:var(--green);color:#fff;border-color:var(--green)}
+.projects{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+.proj{background:var(--card);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;box-shadow:var(--sh)}
+.proj[hidden]{display:none}
+.proj__ph{position:relative}
+.proj__ph img{aspect-ratio:3/2;object-fit:cover;width:100%}
+.proj__ph span{position:absolute;left:12px;top:12px;background:var(--gold);color:#2A1C05;font-size:12px;font-weight:800;border-radius:8px;padding:5px 9px}
+.proj__b{padding:20px;display:flex;flex-direction:column;gap:12px;flex:1}
+.proj h3{font-size:20px}
+.specs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;font-size:13px;color:var(--soft)}
+.specs b{display:block;color:var(--ink);font-size:15px}
+.proj__price{margin-top:auto;padding-top:12px;border-top:1px solid var(--line)}
+.proj__price small{display:block;font-size:12.5px;color:var(--soft)}
+.proj__price b{font-size:24px;font-weight:800}
+.proj button{background:none;border:1px solid var(--line);border-radius:10px;padding:11px;font-weight:700;cursor:pointer;color:var(--acc)}
+.proj button:hover{border-color:var(--acc)}
+.projects__note{margin-top:22px;color:var(--soft);font-size:15px}
+
+/* калькулятор */
+.quiz{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,.75fr);gap:0;background:var(--card);border-radius:22px;overflow:hidden;box-shadow:0 30px 60px rgb(0 0 0 / .25)}
+.quiz__main{padding:40px;color:var(--ink)}
+.quiz__steps{display:flex;gap:6px;margin-bottom:26px}
+.quiz__steps i{flex:1;height:5px;border-radius:3px;background:var(--line)}
+.quiz__steps i.on{background:var(--acc)}
+.q{display:none}
+.q.is-on{display:block;animation:qin .35s ease}
+@keyframes qin{from{opacity:0;transform:translateX(12px)}}
+.q h3{font-size:24px;margin-bottom:6px}
+.q > p{margin:0 0 22px;color:var(--soft)}
+.opts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.opt{position:relative}
+.opt input{position:absolute;opacity:0}
+.opt span{display:block;border:2px solid var(--line);border-radius:12px;padding:16px;cursor:pointer;font-weight:700;transition:border-color .2s,background .2s}
+.opt span small{display:block;font-weight:500;color:var(--soft);font-size:13px;margin-top:3px}
+.opt input:checked + span{border-color:var(--acc);background:#FFF5EE}
+.opt input:focus-visible + span{outline:3px solid var(--gold);outline-offset:2px}
+.range{display:grid;gap:14px}
+.range output{font-size:40px;font-weight:800;color:var(--acc)}
+.range input{width:100%;accent-color:var(--acc)}
+.range__lbl{display:flex;justify-content:space-between;color:var(--soft);font-size:13px}
+.quiz__nav{display:flex;justify-content:space-between;gap:12px;margin-top:28px}
+.quiz__nav .back{background:none;border:0;color:var(--soft);font-weight:700;cursor:pointer;padding:10px 0}
+.quiz__side{background:var(--green2);color:#F3EFE7;padding:40px 34px;display:flex;flex-direction:column;gap:16px}
+.quiz__side small{color:#B9C2BB;font-size:13px}
+.quiz__sum{font-size:clamp(28px,3vw,38px);font-weight:800;line-height:1.1;color:var(--gold)}
+.quiz__side ul{list-style:none;margin:0;padding:0;display:grid;gap:8px;font-size:14.5px;color:#D4DAD5}
+.quiz__side ul b{color:#fff}
+.lead-form{display:grid;gap:12px}
+.lead-form input{background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:14px;width:100%}
+.lead-form input:focus{outline:none;border-color:var(--acc)}
+.lead-form input.err{border-color:#C0392B}
+.consent{font-size:12.5px;color:var(--soft)}
+.done{display:none;background:#EEF7F1;border:1px solid #BFE0CB;border-radius:12px;padding:18px;font-weight:600}
+.done.is-on{display:block}
+
+/* под ключ */
+.incl{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.inc{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:26px}
+.inc h3{font-size:19px;display:flex;align-items:center;gap:10px;margin-bottom:14px}
+.inc h3 svg{color:var(--acc)}
+.inc ul{margin:0;padding:0;list-style:none;display:grid;gap:8px;color:var(--soft);font-size:15px}
+.inc li::before{content:"— ";color:var(--acc)}
+.fix{margin-top:22px;display:flex;flex-wrap:wrap;gap:16px 28px;align-items:center;justify-content:space-between;background:#FFF5EE;border:1px solid #F1D3BF;border-radius:var(--r);padding:22px 26px}
+.fix b{font-size:18px}
+.fix p{margin:4px 0 0;color:var(--soft)}
+
+/* этапы */
+.stages{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:48px;align-items:start}
+.stages img{border-radius:18px;width:100%;aspect-ratio:4/3;object-fit:cover}
+.st-list{list-style:none;margin:0;padding:0;counter-reset:s}
+.st-list li{counter-increment:s;display:grid;grid-template-columns:52px minmax(0,1fr) auto;gap:16px;align-items:start;padding:18px 0;border-bottom:1px solid rgb(255 255 255 / .12)}
+.st-list li::before{content:counter(s);width:44px;height:44px;border-radius:50%;border:2px solid var(--gold);color:var(--gold);display:grid;place-items:center;font-weight:800}
+.st-list b{display:block;font-size:18px}
+.st-list span{font-size:14.5px;color:#B9C2BB}
+.st-list em{font-style:normal;font-weight:800;color:var(--gold);white-space:nowrap;font-size:15px}
+.st-note{margin-top:22px;font-size:15px;color:#D4DAD5}
+.st-note b{color:#fff}
+
+/* ипотека */
+.mort{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:40px;align-items:center}
+.mort__cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.mcard{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:22px}
+.mcard b{display:block;font-size:26px;font-weight:800;color:var(--green)}
+.mcard span{color:var(--soft);font-size:14.5px}
+.mort__ex{grid-column:span 2;background:var(--green);color:#F3EFE7;border-radius:var(--r);padding:22px}
+.mort__ex b{color:var(--gold);font-size:22px}
+.mort__ex small{display:block;color:#B9C2BB;margin-top:6px;font-size:12.5px}
+
+/* гарантии */
+.guar{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+.g{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:26px;text-align:left}
+.g b{display:block;font-size:40px;font-weight:800;color:var(--acc);line-height:1}
+.g h3{font-size:17px;margin:12px 0 6px}
+.g p{margin:0;color:var(--soft);font-size:14.5px}
+
+/* отзывы */
+.revs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.rev{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:26px;display:flex;flex-direction:column;gap:12px}
+.rev .stars{color:var(--gold);letter-spacing:2px}
+.rev p{margin:0;font-size:15.5px}
+.rev footer{margin-top:auto;font-size:14px;color:var(--soft)}
+.rev footer b{color:var(--ink)}
+.demo-note{margin-top:16px;font-size:13px;color:var(--soft)}
+
+/* экскурсия */
+.tour{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);border-radius:22px;overflow:hidden;background:var(--card);box-shadow:var(--sh)}
+.tour img{width:100%;height:100%;object-fit:cover;min-height:320px}
+.tour__b{padding:44px}
+.tour__b h2{font-size:clamp(26px,2.8vw,36px)}
+.tour__b p{color:var(--soft);margin:14px 0 24px}
+
+/* FAQ */
+.faq{max-width:860px}
+.faq details{border-bottom:1px solid var(--line)}
+.faq summary{list-style:none;cursor:pointer;padding:20px 0;font-weight:700;font-size:18px;display:flex;justify-content:space-between;gap:20px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";color:var(--acc);font-size:24px;line-height:1}
+.faq details[open] summary::after{content:"−"}
+.faq p{margin:0 0 20px;color:var(--soft)}
+
+/* финал */
+.final{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,420px);gap:48px;align-items:center}
+.final h2 span{color:var(--gold)}
+.final .lead-form input{background:#fff;border-color:transparent}
+.final .consent{color:#B9C2BB}
+.final .done{color:var(--ink)}
+.final__meta{display:flex;flex-wrap:wrap;gap:12px 28px;margin-top:26px;color:#D4DAD5;font-size:15px}
+
+/* подвал */
+.foot{background:#141A16;color:#A9B2AB;font-size:14px}
+.foot__in{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:12px 28px;padding:30px 22px 40px}
+.foot__in .logo{color:#fff;font-size:19px}
+.foot a{text-decoration:none}
+.foot__demo{flex-basis:100%;font-size:12.5px;color:#7F8A82}
+/* подпись разработчика в подвале: «Создан в «Веб-Ателье»» – одинаковая на всех сайтах, не менять */
+.foot__made{display:inline-block;white-space:nowrap;font-style:italic;font-size:14px;line-height:1.4;color:#A9B2AB;padding:.4em 0}
+.foot__made a{display:inline;margin:0 0 0 .3em;color:inherit;text-decoration:none;font-family:Calibri,"Carlito",sans-serif;font-weight:700;font-style:italic;font-size:1.12em}
+.foot__made a:hover{color:#fff;text-decoration:underline;text-underline-offset:.18em}
+.foot__made img{display:inline-block;width:40px;height:52px;max-width:none;margin-left:.35em;vertical-align:-7px}
+
+/* нижняя панель на телефоне */
+.mbar{display:none}
+
+@media (max-width:1100px){
+  .nav{display:none}
+  .hdr__ph{margin-left:auto}
+  .pains,.answer,.guar,.projects{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:900px){
+  .quiz,.stages,.mort,.tour,.final{grid-template-columns:minmax(0,1fr)}
+  .incl,.revs{grid-template-columns:minmax(0,1fr)}
+  .quiz__main,.quiz__side{padding:28px 22px}
+  .tour__b{padding:30px 24px}
+  .hero::before{background:linear-gradient(180deg,rgb(16 22 19 / .55) 0%,rgb(16 22 19 / .78) 55%,rgb(16 22 19 / .92) 100%)}
+}
+@media (max-width:640px){
+  .wrap{padding:0 18px}
+  .sec{padding:68px 0}
+  .head{margin-bottom:30px}
+  .hdr__in{height:62px;gap:10px}
+  .logo{font-size:18px}
+  .logo svg{width:28px;height:28px}
+  .hdr .btn{display:none}
+  .hdr__ph{font-size:15px}
+  .hdr__ph small{display:none}
+  .hero{padding:96px 0 110px;align-items:flex-end}
+  .hero__list{font-size:15.5px}
+  .hero__cta .btn{flex:1 1 100%}
+  .hero__trust{gap:12px 26px}
+  .hero__trust b{font-size:24px}
+  .pains,.answer,.guar,.projects,.opts,.mort__cards{grid-template-columns:minmax(0,1fr)}
+  .mort__ex{grid-column:auto}
+  .st-list li{grid-template-columns:44px minmax(0,1fr);}
+  .st-list em{grid-column:2}
+  .fix .btn{width:100%}
+  .mbar{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));position:fixed;left:0;right:0;bottom:0;z-index:45;background:var(--green);border-top:1px solid rgb(255 255 255 / .1);padding:8px 8px calc(8px + env(safe-area-inset-bottom));gap:8px}
+  .mbar a{display:flex;flex-direction:column;align-items:center;gap:2px;text-decoration:none;color:#fff;font-size:12px;font-weight:700;padding:6px 0;border-radius:10px}
+  .mbar a:last-child{background:var(--acc)}
+  .mbar svg{width:20px;height:20px}
+  .foot__in{padding-bottom:100px}
+}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}html{scroll-behavior:auto}.rv{opacity:1;transform:none}}
 </style>
 </head>
-<body><main>
-<div class="k">Демо-версия по вашему ТЗ</div>
-<h1>Лендинг: строительство загородных домов в Краснодаре</h1>
-<div class="bar" aria-hidden="true"><i></i></div>
-<p>Сайт сейчас собирается по вашему техническому заданию.<br>Будет готов сегодня к <b>13:33</b> – по этой же ссылке.</p>
-<p style="font-size:.85rem">Страница обновится сама.</p>
-</main></body></html>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="logo" viewBox="0 0 34 34"><rect width="34" height="34" rx="8" fill="#E8A33D"/><path d="M7 17 17 8l10 9v9H7z" fill="#1F2A24"/><path d="M14 26v-6h6v6" fill="#E8A33D"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M4 12.5 9.5 18 20 6"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2"/></symbol>
+  <symbol id="i-wa" viewBox="0 0 24 24"><path d="M3 21l1.6-4.7A8.5 8.5 0 1 1 7.8 19.6z"/><path d="M9 8.5c0 3 2.5 6.5 6.5 7l1-1.6-2-1-1 .9c-1-.4-2.4-1.8-2.8-2.8l.9-1-1-2-1.6 1"/></symbol>
+  <symbol id="i-calc" viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M8 7h8M8 11h2M12 11h2M16 11h0M8 15h2M12 15h2M8 18h2M12 18h4"/></symbol>
+  <symbol id="i-found" viewBox="0 0 24 24"><path d="M3 20h18M5 20v-5h14v5M7 15v-3h10v3"/></symbol>
+  <symbol id="i-roof" viewBox="0 0 24 24"><path d="M3 12 12 4l9 8M6 10v10h12V10"/></symbol>
+  <symbol id="i-key" viewBox="0 0 24 24"><circle cx="8" cy="15" r="4"/><path d="m11 12 9-9M17 6l3 3M14 9l2 2"/></symbol>
+</svg>
+
+<header class="hdr" id="hdr">
+  <div class="wrap hdr__in">
+    <a class="logo" href="#top" aria-label="Дом 23 – на главную"><svg><use href="#logo"/></svg>Дом 23</a>
+    <nav class="nav" aria-label="Разделы">
+      <a href="#proekty">Проекты и цены</a><a href="#raschet">Калькулятор</a><a href="#etapy">Этапы и оплата</a><a href="#ipoteka">Ипотека</a><a href="#otzyvy">Отзывы</a>
+    </nav>
+    <a class="hdr__ph" href="tel:+79000000000">+7 (900) 000-00-00<small>ежедневно 9:00–20:00</small></a>
+    <a class="btn btn--acc" href="#raschet">Рассчитать стоимость</a>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <picture>
+      <source media="(max-width:640px)" srcset="assets/hero-m.webp">
+      <img src="assets/hero.webp" alt="Современный одноэтажный дом вечером с подсветкой" width="1920" height="1080" fetchpriority="high">
+    </picture>
+    <div class="wrap">
+      <div class="hero__in">
+        <span class="badge">Краснодар и край · сдали 140+ домов</span>
+        <h1>Построим дом под ключ за <span>4–6 месяцев</span> по фиксированной смете</h1>
+        <ul class="hero__list">
+          <li><svg class="i"><use href="#i-check"/></svg>Цена в договоре не меняется до сдачи – или платим неустойку</li>
+          <li><svg class="i"><use href="#i-check"/></svg>Оплата по этапам: платите только за принятую работу</li>
+          <li><svg class="i"><use href="#i-check"/></svg>Семейная ипотека и материнский капитал – оформим за вас</li>
+        </ul>
+        <div class="hero__cta">
+          <a class="btn btn--acc" href="#raschet"><svg class="i"><use href="#i-calc"/></svg>Рассчитать стоимость за 2 минуты</a>
+          <a class="btn btn--ghost" href="#proekty">Смотреть проекты с ценами</a>
+        </div>
+        <div class="hero__trust">
+          <div><b>от 42 000 ₽</b><span>за м² под ключ</span></div>
+          <div><b>10 лет</b><span>гарантия на конструктив</span></div>
+          <div><b>4,9 ★</b><span>рейтинг на Яндекс Картах</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="pochemu">
+    <div class="wrap">
+      <div class="head rv"><span class="kicker">Почему стройку откладывают</span><h2>Четыре страха, которые мы снимаем договором</h2></div>
+      <div class="pains">
+        <div class="pain rv"><b>Страх 1</b><h3>Смета растёт</h3><p>Начинали с 6 млн, а в конце «нужно ещё полтора на кровлю и окна».</p></div>
+        <div class="pain rv"><b>Страх 2</b><h3>Сроки срываются</h3><p>Обещали к лету, а коробка стоит без крыши до зимы.</p></div>
+        <div class="pain rv"><b>Страх 3</b><h3>Бригада пропала</h3><p>Взяли аванс за материалы и перестали брать трубку.</p></div>
+        <div class="pain rv"><b>Страх 4</b><h3>Качество не проверить</h3><p>Вы на работе, а под штукатуркой – трещины и кривые стены.</p></div>
+      </div>
+      <div class="answer">
+        <div class="ans rv"><h3>Фиксированная смета</h3><p>Итоговая цена записана в договоре. Дороже – только если вы сами меняете проект.</p></div>
+        <div class="ans rv"><h3>Неустойка за срок</h3><p>0,1% от стоимости этапа за каждый день просрочки – прописано в договоре.</p></div>
+        <div class="ans rv"><h3>Оплата после приёмки</h3><p>Никаких 100% вперёд: 5 этапов, каждый оплачиваете после подписания акта.</p></div>
+        <div class="ans rv"><h3>Фото и видео каждую неделю</h3><p>Отчёт в WhatsApp и онлайн-камера на участке – стройка всегда перед глазами.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec sec--alt" id="proekty">
+    <div class="wrap">
+      <div class="head rv"><span class="kicker">Проекты и цены</span><h2>Готовые проекты с ценой «под ключ»</h2><p class="sub">Цена включает фундамент, стены, кровлю, окна, инженерные сети и чистовую отделку. Любой проект адаптируем под ваш участок бесплатно.</p></div>
+      <div class="tabs rv" role="group" aria-label="Фильтр проектов">
+        <button class="tab" type="button" aria-pressed="true" data-f="all">Все</button>
+        <button class="tab" type="button" aria-pressed="false" data-f="1">Одноэтажные</button>
+        <button class="tab" type="button" aria-pressed="false" data-f="2">Двухэтажные</button>
+      </div>
+      <div class="projects">
+        <article class="proj rv" data-fl="1"><div class="proj__ph"><img src="assets/p1.webp" alt="Одноэтажный дом с гаражом" width="900" height="600" loading="lazy"><span>Хит продаж</span></div><div class="proj__b"><h3>«Кубань 120»</h3><div class="specs"><div><b>120 м²</b>площадь</div><div><b>3</b>спальни</div><div><b>4 мес</b>срок</div></div><div class="proj__price"><small>под ключ, газобетон</small><b>от 5,4 млн ₽</b></div><button type="button" data-p="«Кубань 120»">Получить планировку и смету</button></div></article>
+        <article class="proj rv" data-fl="1"><div class="proj__ph"><img src="assets/p2.webp" alt="Современный одноэтажный дом с панорамными окнами" width="900" height="600" loading="lazy"><span>Панорамные окна</span></div><div class="proj__b"><h3>«Модерн 150»</h3><div class="specs"><div><b>150 м²</b>площадь</div><div><b>3</b>спальни</div><div><b>5 мес</b>срок</div></div><div class="proj__price"><small>под ключ, газобетон</small><b>от 6,9 млн ₽</b></div><button type="button" data-p="«Модерн 150»">Получить планировку и смету</button></div></article>
+        <article class="proj rv" data-fl="2"><div class="proj__ph"><img src="assets/p3.webp" alt="Современный двухэтажный дом вечером" width="900" height="600" loading="lazy"><span>Для большой семьи</span></div><div class="proj__b"><h3>«Юг 180»</h3><div class="specs"><div><b>180 м²</b>площадь</div><div><b>4</b>спальни</div><div><b>6 мес</b>срок</div></div><div class="proj__price"><small>под ключ, кирпич</small><b>от 8,6 млн ₽</b></div><button type="button" data-p="«Юг 180»">Получить планировку и смету</button></div></article>
+        <article class="proj rv" data-fl="2"><div class="proj__ph"><img src="assets/p4.webp" alt="Двухэтажный дом с большой террасой" width="900" height="600" loading="lazy"><span>С террасой</span></div><div class="proj__b"><h3>«Терраса 210»</h3><div class="specs"><div><b>210 м²</b>площадь</div><div><b>5</b>спален</div><div><b>6 мес</b>срок</div></div><div class="proj__price"><small>под ключ, газобетон</small><b>от 9,8 млн ₽</b></div><button type="button" data-p="«Терраса 210»">Получить планировку и смету</button></div></article>
+      </div>
+      <p class="projects__note rv">Не нашли подходящий? Ещё 60+ проектов в каталоге – <a href="#final" style="color:var(--acc);font-weight:700">пришлём в WhatsApp</a>, или спроектируем индивидуально.</p>
+    </div>
+  </section>
+
+  <section class="sec sec--dark" id="raschet">
+    <div class="wrap">
+      <div class="head rv"><span class="kicker" style="color:var(--gold)">Калькулятор</span><h2>Узнайте стоимость своего дома за 2 минуты</h2><p class="sub">Ответьте на 4 вопроса – покажем примерную цену сразу, а точную смету пришлём в WhatsApp.</p></div>
+      <div class="quiz rv">
+        <div class="quiz__main">
+          <div class="quiz__steps" aria-hidden="true"><i class="on"></i><i></i><i></i><i></i><i></i></div>
+          <div class="q is-on" data-q="0">
+            <h3>Какая площадь дома нужна?</h3><p>Передвиньте ползунок</p>
+            <div class="range"><output id="areaOut">120 м²</output><input type="range" id="area" min="70" max="300" step="10" value="120" aria-label="Площадь дома, м²"><div class="range__lbl"><span>70 м²</span><span>300 м²</span></div></div>
+          </div>
+          <div class="q" data-q="1">
+            <h3>Сколько этажей?</h3><p>Выберите вариант</p>
+            <div class="opts">
+              <label class="opt"><input type="radio" name="fl" value="1" checked><span>Один этаж<small>Без лестниц, удобно для семьи с детьми</small></span></label>
+              <label class="opt"><input type="radio" name="fl" value="2"><span>Два этажа<small>Меньше участка под застройку</small></span></label>
+            </div>
+          </div>
+          <div class="q" data-q="2">
+            <h3>Из чего строим стены?</h3><p>Влияет на цену и сроки</p>
+            <div class="opts">
+              <label class="opt"><input type="radio" name="mat" value="1" checked><span>Газобетон<small>Тёплый, оптимальный по цене</small></span></label>
+              <label class="opt"><input type="radio" name="mat" value="1.05"><span>Кирпич<small>Самый долговечный</small></span></label>
+              <label class="opt"><input type="radio" name="mat" value="0.9"><span>Каркас<small>Самый быстрый – от 3 месяцев</small></span></label>
+              <label class="opt"><input type="radio" name="mat" value="1.03"><span>Керамоблок<small>Тёплый и прочный</small></span></label>
+            </div>
+          </div>
+          <div class="q" data-q="3">
+            <h3>Какая отделка нужна?</h3><p>Под ключ – можно сразу заезжать</p>
+            <div class="opts">
+              <label class="opt"><input type="radio" name="fin" value="0.55"><span>Тёплый контур<small>Коробка, кровля, окна, двери</small></span></label>
+              <label class="opt"><input type="radio" name="fin" value="0.78"><span>Предчистовая<small>+ сети, стяжка, штукатурка</small></span></label>
+              <label class="opt"><input type="radio" name="fin" value="1" checked><span>Под ключ<small>Чистовая отделка и сантехника</small></span></label>
+            </div>
+          </div>
+          <div class="q" data-q="4">
+            <h3>Куда прислать подробную смету?</h3><p>Пришлём смету с разбивкой по этапам и 3 подходящих проекта</p>
+            <form class="lead-form" id="quizForm" novalidate>
+              <input name="name" placeholder="Ваше имя" autocomplete="name">
+              <input name="phone" type="tel" placeholder="Телефон для WhatsApp" autocomplete="tel" required>
+              <button class="btn btn--acc" type="submit">Получить смету в WhatsApp</button>
+              <span class="consent">Нажимая кнопку, вы соглашаетесь на обработку персональных данных. В демо форма ничего не отправляет.</span>
+            </form>
+            <div class="done" id="quizDone" role="status">Спасибо! Инженер-сметчик отправит смету в WhatsApp в течение 30 минут в рабочее время.</div>
+          </div>
+          <div class="quiz__nav"><button class="back" type="button" id="back">← Назад</button><button class="btn btn--dark" type="button" id="next">Дальше</button></div>
+        </div>
+        <aside class="quiz__side" aria-live="polite">
+          <small>Примерная стоимость вашего дома</small>
+          <div class="quiz__sum" id="sum">5,1 – 5,6 млн ₽</div>
+          <ul id="sumList"></ul>
+          <small>Точная цена фиксируется в договоре после выезда инженера на участок – бесплатно.</small>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="podklyuch">
+    <div class="wrap">
+      <div class="head rv"><span class="kicker">Что входит в «под ключ»</span><h2>Заезжаете с чемоданами – всё остальное уже сделано</h2></div>
+      <div class="incl">
+        <div class="inc rv"><h3><svg class="i"><use href="#i-found"/></svg>Коробка</h3><ul><li>Геология и разметка участка</li><li>Монолитный фундамент-плита</li><li>Стены и перекрытия</li><li>Кровля с утеплением</li><li>Окна, входная дверь</li></ul></div>
+        <div class="inc rv"><h3><svg class="i"><use href="#i-roof"/></svg>Инженерия</h3><ul><li>Электрика с щитком</li><li>Водопровод и канализация</li><li>Газовый котёл и тёплый пол</li><li>Вентиляция</li><li>Подключение к сетям</li></ul></div>
+        <div class="inc rv"><h3><svg class="i"><use href="#i-key"/></svg>Отделка</h3><ul><li>Фасад: штукатурка или клинкер</li><li>Стены и потолки под покраску</li><li>Ламинат, плитка в санузлах</li><li>Межкомнатные двери</li><li>Сантехника и розетки</li></ul></div>
+      </div>
+      <div class="fix rv"><div><b>Цену фиксируем в договоре.</b><p>Если смета вырастет по нашей вине – доплачиваем мы, а не вы.</p></div><a class="btn btn--acc" href="#raschet">Рассчитать мой дом</a></div>
+    </div>
+  </section>
+
+  <section class="sec sec--dark" id="etapy">
+    <div class="wrap stages">
+      <div class="rv">
+        <span class="kicker" style="color:var(--gold)">Этапы и оплата</span>
+        <h2 style="margin-top:10px">Платите частями – только за принятую работу</h2>
+        <ol class="st-list">
+          <li><div><b>Договор и проект</b><span>Смета, график, привязка к участку – 2 недели</span></div><em>10%</em></li>
+          <li><div><b>Фундамент</b><span>Плита, гидроизоляция, акт скрытых работ</span></div><em>20%</em></li>
+          <li><div><b>Стены и кровля</b><span>Тёплый контур, окна, двери</span></div><em>30%</em></li>
+          <li><div><b>Инженерные сети</b><span>Электрика, вода, отопление, канализация</span></div><em>20%</em></li>
+          <li><div><b>Отделка и сдача</b><span>Чистовая отделка, уборка, ключи</span></div><em>20%</em></li>
+        </ol>
+        <p class="st-note">Каждый этап принимаете с <b>независимым технадзором</b> – его услуги оплачиваем мы.</p>
+      </div>
+      <img class="rv" src="assets/build.webp" alt="Каркас дома на этапе стройки" width="1000" height="750" loading="lazy">
+    </div>
+  </section>
+
+  <section class="sec sec--alt" id="ipoteka">
+    <div class="wrap mort">
+      <div class="rv">
+        <span class="kicker">Ипотека и маткапитал</span>
+        <h2 style="margin-top:10px">Дом в ипотеку – без первоначального взноса из своих</h2>
+        <p class="sub">Работаем с аккредитованными банками по программам строительства ИЖС. Соберём документы и подадим заявку в несколько банков за вас.</p>
+        <a class="btn btn--acc" href="#final" style="margin-top:26px">Узнать, одобрят ли мне</a>
+      </div>
+      <div class="mort__cards rv">
+        <div class="mcard"><b>Семейная</b><span>ипотека на строительство дома</span></div>
+        <div class="mcard"><b>Маткапитал</b><span>в счёт первого взноса</span></div>
+        <div class="mcard"><b>8 банков</b><span>подаём заявку одновременно</span></div>
+        <div class="mcard"><b>3 дня</b><span>на предварительное решение</span></div>
+        <div class="mort__ex"><span>Пример: «Кубань 120» под ключ</span><br><b>платёж от 34 000 ₽ в месяц</b><small>Расчёт условный для демо. Ставка и платёж зависят от программы и банка.</small></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="garantii">
+    <div class="wrap">
+      <div class="head rv"><span class="kicker">Гарантии в договоре</span><h2>Риски берём на себя</h2></div>
+      <div class="guar">
+        <div class="g rv"><b>10 лет</b><h3>на фундамент и стены</h3><p>Трещины по нашей вине устраняем бесплатно.</p></div>
+        <div class="g rv"><b>3 года</b><h3>на инженерию и отделку</h3><p>Выезд мастера – в течение 2 дней.</p></div>
+        <div class="g rv"><b>0,1%</b><h3>неустойка за каждый день</h3><p>Если сорвём срок этапа по договору.</p></div>
+        <div class="g rv"><b>0 ₽</b><h3>доплат сверх сметы</h3><p>Если не меняете проект по ходу стройки.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec sec--alt" id="otzyvy">
+    <div class="wrap">
+      <div class="head rv"><span class="kicker">Отзывы</span><h2>Нам доверили свои дома 140+ семей</h2></div>
+      <div class="revs">
+        <article class="rev rv"><div class="stars">★★★★★</div><p>Строили «Кубань 120» в Елизаветинской. Сдали на 9 дней раньше, по смете не доплатили ни рубля. Фотоотчёты приходили каждую пятницу – мы живём в Сургуте и ни разу не приезжали до приёмки.</p><footer><b>Андрей и Ольга</b> · дом 124 м², 2025</footer></article>
+        <article class="rev rv"><div class="stars">★★★★★</div><p>Помогли с семейной ипотекой: сами собрали документы и подали в три банка. Одобрили за 4 дня. Технадзор на приёмке нашёл мелочи по откосам – переделали за 2 дня.</p><footer><b>Марина</b> · дом 150 м², 2025</footer></article>
+        <article class="rev rv"><div class="stars">★★★★☆</div><p>Дом отличный, тёплый. Из минусов – задержались с подключением газа на 3 недели, но это газовая служба, и прораб сам всё время её дёргал. Неустойку за этап честно пересчитали.</p><footer><b>Сергей</b> · дом 180 м², 2024</footer></article>
+      </div>
+      <p class="demo-note rv">Отзывы в этом демо условные – на рабочем сайте будут настоящие отзывы клиентов.</p>
+    </div>
+  </section>
+
+  <section class="sec" id="ekskursiya">
+    <div class="wrap">
+      <div class="tour rv">
+        <img src="assets/inside.webp" alt="Гостиная с большими окнами в построенном доме" width="1000" height="750" loading="lazy">
+        <div class="tour__b">
+          <span class="kicker">Экскурсия</span>
+          <h2 style="margin-top:10px">Приезжайте посмотреть готовые дома и стройку</h2>
+          <p>По субботам показываем дома, где уже живут наши клиенты, и объекты на разных этапах. Можно потрогать стены, спросить хозяев и инженера.</p>
+          <a class="btn btn--acc" href="#final">Записаться на экскурсию</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec sec--alt" id="faq">
+    <div class="wrap">
+      <div class="head rv"><span class="kicker">Вопросы</span><h2>Частые вопросы</h2></div>
+      <div class="faq rv">
+        <details><summary>Почему цена в договоре точно не изменится?</summary><p>Смету считает инженер после выезда на участок и геологии. Все работы и материалы перечислены в приложении к договору. Если нам не хватило – доплачиваем сами.</p></details>
+        <details><summary>У меня ещё нет участка – вы поможете?</summary><p>Да. Подберём участок в Краснодаре и пригороде с подведёнными коммуникациями и проверим документы перед покупкой.</p></details>
+        <details><summary>Можно изменить готовый проект?</summary><p>Да, планировку под вашу семью меняем бесплатно, если площадь меняется не больше чем на 10%.</p></details>
+        <details><summary>Как я буду следить за стройкой, если живу в другом городе?</summary><p>Каждую неделю – фото и видео в WhatsApp, на участке онлайн-камера, приёмка этапов – по видеосвязи с технадзором.</p></details>
+        <details><summary>Работаете ли вы зимой?</summary><p>Да, в Краснодаре стройка идёт круглый год. Бетонные работы зимой ведём с прогревом.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec sec--dark" id="final">
+    <div class="wrap final">
+      <div class="rv">
+        <span class="kicker" style="color:var(--gold)">Первый шаг</span>
+        <h2 style="margin-top:10px">Получите смету и 3 подходящих проекта <span>бесплатно</span></h2>
+        <p class="sub">Инженер перезвонит за 15 минут, уточнит пожелания и пришлёт расчёт в WhatsApp. Ни к чему не обязывает.</p>
+        <div class="final__meta"><span>📍 Краснодар и край</span><span>🕘 ежедневно 9:00–20:00</span><span>🏠 140+ сданных домов</span></div>
+      </div>
+      <div class="rv">
+        <form class="lead-form" id="finalForm" novalidate>
+          <input name="name" placeholder="Ваше имя" autocomplete="name">
+          <input name="phone" type="tel" placeholder="Телефон" autocomplete="tel" required>
+          <button class="btn btn--acc" type="submit">Получить смету и проекты</button>
+          <span class="consent">Нажимая кнопку, вы соглашаетесь на обработку персональных данных. В демо форма ничего не отправляет.</span>
+        </form>
+        <div class="done" id="finalDone" role="status">Спасибо! Инженер перезвонит вам в течение 15 минут в рабочее время.</div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="foot__in wrap">
+    <a class="logo" href="#top"><svg><use href="#logo"/></svg>Дом 23</a>
+    <a href="tel:+79000000000" style="color:#fff;font-weight:700">+7 (900) 000-00-00</a>
+    <span class="foot__made">Создан в <a href="https://web-atelie.ru/" target="_blank" rel="noopener">«Веб-Ателье»</a><img src="assets/web-atelie.png" alt="" width="40" height="52" loading="lazy" decoding="async"></span>
+    <span class="foot__demo">Демо-концепт лендинга строительной компании. Название, контакты, цены, рейтинг и отзывы условные, фото – из стоковой библиотеки.</span>
+  </div>
+</footer>
+
+<nav class="mbar" aria-label="Быстрые действия">
+  <a href="tel:+79000000000"><svg class="i"><use href="#i-phone"/></svg>Позвонить</a>
+  <a href="https://wa.me/79000000000" target="_blank" rel="noopener"><svg class="i"><use href="#i-wa"/></svg>WhatsApp</a>
+  <a href="#raschet"><svg class="i"><use href="#i-calc"/></svg>Расчёт</a>
+</nav>
+
+<script>
+const hdr=document.getElementById('hdr');const solid=()=>hdr.classList.toggle('is-solid',scrollY>40);solid();addEventListener('scroll',solid,{passive:true});
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('on');io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+// фильтр проектов
+document.querySelectorAll('.tab').forEach(t=>t.onclick=()=>{document.querySelectorAll('.tab').forEach(x=>x.setAttribute('aria-pressed',x===t));document.querySelectorAll('.proj').forEach(p=>p.hidden=!(t.dataset.f==='all'||p.dataset.fl===t.dataset.f))});
+document.querySelectorAll('[data-p]').forEach(b=>b.onclick=()=>{location.hash='final';const f=document.getElementById('finalForm');f.dataset.project=b.dataset.p;f.querySelector('button').textContent='Получить смету по '+b.dataset.p;setTimeout(()=>f.name.focus({preventScroll:true}),500)});
+// калькулятор
+const qs=[...document.querySelectorAll('.q')],dots=[...document.querySelectorAll('.quiz__steps i')];let qi=0;
+const area=document.getElementById('area'),areaOut=document.getElementById('areaOut');
+const val=n=>(document.querySelector(`input[name="${n}"]:checked`)||{}).value;
+const lbl=n=>{const c=document.querySelector(`input[name="${n}"]:checked`);return c?c.nextElementSibling.firstChild.textContent.trim():''};
+function calc(){
+  const a=+area.value;areaOut.textContent=a+' м²';
+  const base=45000*(val('fl')==='2'?1.04:1)*(+val('mat')||1)*(+val('fin')||1);
+  const lo=a*base*0.95/1e6,hi=a*base*1.05/1e6;
+  const f=x=>x.toFixed(1).replace('.',',');
+  document.getElementById('sum').textContent=f(lo)+' – '+f(hi)+' млн ₽';
+  const months=Math.round((val('mat')==='0.9'?3:4)+(a>160?1:0)+(val('fl')==='2'?1:0)+(val('fin')==='1'?1:0));
+  document.getElementById('sumList').innerHTML=`<li>Площадь: <b>${a} м²</b></li><li>Этажей: <b>${val('fl')}</b></li><li>Стены: <b>${lbl('mat')}</b></li><li>Отделка: <b>${lbl('fin')}</b></li><li>Срок: <b>~${months} мес.</b></li>`;
+}
+area.oninput=calc;document.querySelectorAll('.q input[type=radio]').forEach(r=>r.onchange=calc);calc();
+const next=document.getElementById('next'),back=document.getElementById('back');
+function show(i){qi=i;qs.forEach((q,k)=>q.classList.toggle('is-on',k===i));dots.forEach((d,k)=>d.classList.toggle('on',k<=i));back.style.visibility=i?'visible':'hidden';next.style.display=i===qs.length-1?'none':''}
+next.onclick=()=>show(Math.min(qi+1,qs.length-1));back.onclick=()=>show(Math.max(qi-1,0));show(0);
+// формы
+function bind(fid,did){const f=document.getElementById(fid);f.addEventListener('submit',e=>{e.preventDefault();const p=f.phone;const bad=p.value.replace(/\D/g,'').length<10;p.classList.toggle('err',bad);if(bad){p.focus();return}f.hidden=true;document.getElementById(did).classList.add('is-on')})}
+bind('quizForm','quizDone');bind('finalForm','finalDone');
+</script>
+</body>
+</html>
