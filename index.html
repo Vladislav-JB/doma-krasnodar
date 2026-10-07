@@ -580,7 +580,7 @@ function calc(){
   const lo=a*base*0.95/1e6,hi=a*base*1.05/1e6;
   const f=x=>x.toFixed(1).replace('.',',');
   document.getElementById('sum').textContent=f(lo)+' – '+f(hi)+' млн ₽';
-  const months=Math.round((val('mat')==='0.9'?3:4)+(a>160?1:0)+(val('fl')==='2'?1:0)+(val('fin')==='1'?1:0));
+  const months=Math.min(6,(val('mat')==='0.9'?2:3)+(a>140?1:0)+(val('fl')==='2'?1:0)+(val('fin')==='1'?1:0));
   document.getElementById('sumList').innerHTML=`<li>Площадь: <b>${a} м²</b></li><li>Этажей: <b>${val('fl')}</b></li><li>Стены: <b>${lbl('mat')}</b></li><li>Отделка: <b>${lbl('fin')}</b></li><li>Срок: <b>~${months} мес.</b></li>`;
 }
 area.oninput=calc;document.querySelectorAll('.q input[type=radio]').forEach(r=>r.onchange=calc);calc();
